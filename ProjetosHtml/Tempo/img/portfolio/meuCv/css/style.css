@@ -1,0 +1,39 @@
+*{
+  font-family: 'PT Serif', serif;
+}
+p,li,td{
+  color: #696969;
+  font-size: 17px;
+}
+#banner{
+  background: url('../img/XHJG8315.JPG') no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  color: white;
+}
+#img img{
+  width: 100px;
+}
+.navbar-brand,.navbar-nav,.nav-item,.nav-link{
+  background-color: #fff;
+  color: #696969;
+}
+table,.table-borderless,tr{
+border: solid 1px #E8E8E8;
+}
+.navbar .navbar-expand-sm,.navbar-brand,.nav-item,#navBar,.nav-link{
+  background-color: #90EE90;
+}
+h1,h2,h3,h4,h5,h6{
+  color: black;
+}
+
+#cursos{
+  margin-bottom: 10px;
+}
+#link a{
+  color:#696969;
+}
+#footer{
+  background-color: #90EE90;
+}

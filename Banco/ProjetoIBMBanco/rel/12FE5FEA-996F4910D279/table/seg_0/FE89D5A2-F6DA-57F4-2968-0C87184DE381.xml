@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE89D5A2-F6DA-57F4-2968-0C87184DE381" name="T_STB_ALUNO">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>7414F807-3514-708E-164F-71D8812C0D96</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ds_historico" id="AF8563E8-70B4-89B9-662A-1C3911E57B24">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>9BC5AF64-849E-2BC0-9922-5F17FC0C7248</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_grau_escolaridade" id="9ABDCA20-44C0-D683-A97C-0FFA5198743E">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>019F1706-CF73-7AAD-007F-66D84FCD1332</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_ano_formacao" id="618D22EE-6D3E-6F78-D3B0-1D97F10461F7">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>EAE4EEDB-7B70-E412-9FCA-F777732D2DD0</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_usuario" id="BE07B666-6228-665E-1A7D-8A9BE43C5F31">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>C37C5B35-6EB0-DA8F-30C4-4BAEABC2595C</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F2D3DFF-36E5-9BB4-E091-ED8B6F281AE7" referredColumn="958AFBF6-D805-5B77-6104-67D1204AA6E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="519B2AD4-4A1D-53C7-1BAF-F65959C568F9" name="PK_STB_ALUNO">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="BE07B666-6228-665E-1A7D-8A9BE43C5F31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DC0B3CE-7A30-B896-1726-68C1EB23E6E0" name="UN_cd_usuario">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-05 14:33:26 UTC</createdTime>
+<generatorID>B54B359F-3B66-8D69-001D-8FC727482E72</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE07B666-6228-665E-1A7D-8A9BE43C5F31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C77FF80D-262C-FED8-2E74-A261F331E414" name="FK_STB_ALUNO_USUARIO">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>5B70DACC-BFE4-26B3-B472-DF810BBDD71F</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE07B666-6228-665E-1A7D-8A9BE43C5F31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

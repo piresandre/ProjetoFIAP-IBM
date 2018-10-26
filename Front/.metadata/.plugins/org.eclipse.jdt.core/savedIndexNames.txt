@@ -1,0 +1,14 @@
+INDEX VERSION 1.130+C:\Users\andre\Documents\ProjetoIBM\amWeb\.metadata\.plugins\org.eclipse.jdt.core
+228940280.index
+841340106.index
+2137927211.index
+3966089145.index
+3996102163.index
+3635871142.index
+1968553903.index
+2596329816.index
+919281016.index
+2361161785.index
+4118568701.index
+2606954753.index
+4134895239.index

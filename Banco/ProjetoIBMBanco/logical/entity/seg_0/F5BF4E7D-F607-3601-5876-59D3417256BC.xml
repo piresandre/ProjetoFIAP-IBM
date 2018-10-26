@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5BF4E7D-F607-3601-5876-59D3417256BC" name="T STB AULA">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:17:49 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd aula" id="6AB4747D-663A-A61A-30D1-AFFD68C65FD2">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:25:02 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm aula" id="5E948D96-7F71-BA6A-CAE8-333504882F42">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:25:10 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds duracao" id="C0B044AD-6320-952C-D687-5D3889A73ECE">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:25:17 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd curso" id="082EC9E1-A239-10E7-CFA1-E2EE1406FEA0">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:41:27 UTC</createdTime>
+<generatorID>18C67A3F-D9C2-D73E-8DB5-89FC4A35D499</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<referedAttribute>E03BE03F-3FC5-29FC-4BA6-315C2477A875</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd usuario" id="15437C35-7779-1463-875F-4BB03093A364">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-05 14:33:15 UTC</createdTime>
+<generatorID>C81E6556-A36E-CF2E-A761-3F26C5ED1CFE</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<referedAttribute>CC1B6386-238E-AFEF-3106-FB61E618F4DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd disciplina" id="14E8FF78-64DE-E99D-DADD-00771E13C12B">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-19 13:25:06 UTC</createdTime>
+<generatorID>77CE8C01-DCE6-28E3-8B8A-4EED24D94BFA</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<referedAttribute>D46DEE62-C339-27C3-4383-BE864714F07E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B445101C-49C7-40D0-AAEB-F8ACDBA7281B" name="PK_STB_AULA">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:25:07 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6AB4747D-663A-A61A-30D1-AFFD68C65FD2</attributeRef>
+<attributeRef>082EC9E1-A239-10E7-CFA1-E2EE1406FEA0</attributeRef>
+<attributeRef>15437C35-7779-1463-875F-4BB03093A364</attributeRef>
+<attributeRef>14E8FF78-64DE-E99D-DADD-00771E13C12B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

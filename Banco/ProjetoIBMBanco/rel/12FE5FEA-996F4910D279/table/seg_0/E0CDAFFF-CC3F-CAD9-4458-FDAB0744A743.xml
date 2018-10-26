@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0CDAFFF-CC3F-CAD9-4458-FDAB0744A743" name="T_STB_PROFESSOR">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>1130F07F-0F31-000E-3632-04DFE0E0932C</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ds_comprovante_formacao" id="13C8B42B-C1A8-4A22-E653-3277B940AA9E">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>948DECD7-244E-D269-BCCE-7C2A82F44A69</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_usuario" id="306774B3-4980-DEEE-37A9-610C92E20536">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>CC1B6386-238E-AFEF-3106-FB61E618F4DB</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD8DC73B-72D5-D6DB-AE6A-C9B44E531151" referredColumn="958AFBF6-D805-5B77-6104-67D1204AA6E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D9938F2-E1FD-1515-07E4-C118A9F32A6B" name="PK_STB_PROFESSOR">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 18:16:45 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="306774B3-4980-DEEE-37A9-610C92E20536"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3333278F-286C-576D-BC38-47D593E01FF9" name="FK_STB_PROFESSOR_USUARIO">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>8930C1C4-EE24-E728-16DD-5F94E45BC80A</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="306774B3-4980-DEEE-37A9-610C92E20536"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

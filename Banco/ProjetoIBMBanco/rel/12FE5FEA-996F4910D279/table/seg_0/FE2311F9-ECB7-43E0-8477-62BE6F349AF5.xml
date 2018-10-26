@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE2311F9-ECB7-43E0-8477-62BE6F349AF5" name="T_STB_ITEM_PEDIDO">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>7ACE0499-391E-77BE-1BE5-7796DB3698A6</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_item_pedido" id="E6271BAE-DB65-5E9F-A8B0-34BCC2F5C16A">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>E1409394-FB1D-A227-AA87-B7FECE59F6D3</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_item_pedido" id="114BE786-E8B4-8691-0361-0F587D0A5ED4">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>DBAF60C5-380F-AB9C-C417-A7AAC25364D1</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_item" id="689EAA2C-AC60-DC82-2CDA-DD68D8EA7A9B">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>FB09DFBE-5538-9B4D-C8C9-F4A9C841538B</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_vendida" id="EB1085AC-881A-5261-1412-431F20AB1204">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>7FA610A0-09B9-C047-0682-788E40E56AC1</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_pagamento" id="9309B220-5812-6AF0-835E-2583E7BA24A5">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>E27B5749-8D29-7BF9-B875-9FE4B72A2777</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26D82552-54FB-A3BA-F3A9-300A74C40609" referredColumn="AED13F43-0D9C-A39E-6C15-CBDE2C232E73"/>
+</associations>
+</Column>
+<Column name="cd_pedido" id="18FF61FF-E666-109E-32CB-A52990E9D69E">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>93F67E27-B372-3B40-7455-795BD2A05662</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26D82552-54FB-A3BA-F3A9-300A74C40609" referredColumn="68925315-4B8F-43B1-0280-AF1EC30C56BC"/>
+</associations>
+</Column>
+<Column name="cd_curso" id="7BAC278C-8DFE-3377-C71E-B10A8EFA16CB">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>6C30EFC3-D542-F51A-71CB-C103942B03A3</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3ADB940B-65DA-9410-5036-C6336C86E287" referredColumn="E2DDF703-A440-B386-E60A-4121F60E0A61"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FA7A437-7B9B-B0CE-9D00-CC74C81421F5" name="PK_STB_ITEM_PEDIDO">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>5F541563-B2B2-C9C5-4F56-D330A66223F1</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6271BAE-DB65-5E9F-A8B0-34BCC2F5C16A"/>
+<colUsage columnID="9309B220-5812-6AF0-835E-2583E7BA24A5"/>
+<colUsage columnID="18FF61FF-E666-109E-32CB-A52990E9D69E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF251F68-8301-1B87-1F4F-65F2B7292A88" name="FK_STB_ITEM_PEDIDO_CURSO">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>2FC921C7-EBF2-FBB0-0AC0-535C838F9916</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BAC278C-8DFE-3377-C71E-B10A8EFA16CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0968002-A620-8EF7-929A-13DE02D57BD8" name="FK_STB_ITEM_PEDIDO_PEDIDO">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-06 11:47:19 UTC</createdTime>
+<generatorID>954ADA0A-7864-D3B3-6FF1-D09A93939BE8</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9309B220-5812-6AF0-835E-2583E7BA24A5"/>
+<colUsage columnID="18FF61FF-E666-109E-32CB-A52990E9D69E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_STB_ITEM_PEDIDO_1" directorySegmentName="seg_0" id="2493217E-E880-B1E6-7FC9-C2E22D71AD5F">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 18:06:51 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<rule>vl_item_pedido&gt;0</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="317B4AF4-EB5C-A432-F4F5-D5F36A1EB9DA" name="T_STB_DISCIPLINA">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>02BDD37A-7839-5E30-D597-C3AEAC70EBAF</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_disciplina" id="AB146108-9938-01F4-F5F5-C7901E164148">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>D46DEE62-C339-27C3-4383-BE864714F07E</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_disciplina" id="7682A21C-66D4-CE3E-7EDE-1116664FC90A">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>9786A209-6D78-7950-C9F5-1CD73A8A1784</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_area" id="3FEBDE13-8630-E717-5A52-4AE0BD2E4671">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>410336A6-0900-CE4A-A98C-B31B08229967</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53570A98-B975-04B0-2649-73DA38CCFAEB" name="PK_STB_DISCIPLINA">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>2388BD2E-BD1C-4EDA-85F5-92678B5B4521</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB146108-9938-01F4-F5F5-C7901E164148"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

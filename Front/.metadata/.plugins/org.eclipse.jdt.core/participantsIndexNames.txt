@@ -1,0 +1,5 @@
+INDEX VERSION 1.130
+C:\Users\andre\Documents\ProjetoIBM\amWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2882065327.index
+\amWeb\src
+C:\Users\andre\Documents\ProjetoIBM\amWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\773884843.index
+\amWeb\src

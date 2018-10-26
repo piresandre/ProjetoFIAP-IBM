@@ -1,0 +1,201 @@
+
+
+/*
+STUDY BOT 
+ANDRE PIRES RM 79988
+DOUGLAS REIS RM 80517
+HENRIQUE RODRIGUES RM 81072
+VALTER PEREIRA RM 77806
+WILSON ALVEZ RM 77889
+*/
+/*
+DELETE FROM t_stb_disciplina;
+DELETE FROM t_stb_pagamento;
+DELETE FROM t_stb_curso;
+DELETE FROM t_stb_aluno;
+DELETE FROM t_stb_professor;
+DELETE FROM t_stb_pedido;
+DELETE FROM t_stb_item_pedido;
+DELETE FROM t_stb_aula;
+*/
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (1, 'Michel', 1.68);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (2, 'Celesta', 82.76);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (3, 'Kary', 59.8);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (4, 'Davey', 46.3);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (5, 'Valdemar', 8.34);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (6, 'Mellicent', 36.61);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (7, 'Rochelle', 43.34);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (8, 'Mycah', 8.07);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (9, 'Alvie', 6.69);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (10, 'Rubina', 69.89);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (11, 'Jaquelin', 75.09);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (12, 'Ediva', 76.15);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (13, 'Fae', 83.9);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (14, 'Stafford', 74.82);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (15, 'Alecia', 41.0);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (16, 'Kendra', 39.62);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (17, 'Tess', 87.14);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (18, 'Helyn', 73.94);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (19, 'Mar', 61.7);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (20, 'Audrey', 10.95);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (21, 'Cynthie', 75.34);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (22, 'Garvy', 18.06);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (23, 'Maryl', 16.82);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (24, 'Carlin', 17.17);
+insert into T_STB_DISCIPLINA (cd_disciplina, nm_disciplina, ds_area) values (25, 'Sephira', 57.94);
+
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (1, 'Tait');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (2, 'Darleen');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (3, 'Alanna');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (4, 'Tabby');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (5, 'Ashlin');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (6, 'Riordan');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (7, 'Casey');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (8, 'Sinclair');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (9, 'Kamillah');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (10, 'Corene');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (11, 'Pearce');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (12, 'Cosetta');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (13, 'Claudio');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (14, 'Amata');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (15, 'Maxy');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (16, 'Davis');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (17, 'Marie-ann');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (18, 'Thekla');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (19, 'Ulrika');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (20, 'Vannie');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (21, 'Bertha');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (22, 'Corena');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (23, 'Marchall');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (24, 'Udall');
+insert into T_STB_PAGAMENTO (cd_pagamento, ds_tipo_pag) values (25, 'Ermin');
+
+
+
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (1, 'Aline', 'Josée', 22.3);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (2, 'Cecilla', 'Vénus', 75.0);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (3, 'Tedra', 'Josée', 72.9);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (4, 'Dilly', 'Märta', 95.6);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (5, 'Dacie', 'Crééz', 63.1);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (6, 'Skipp', 'Crééz', 87.5);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (7, 'Brigitta', 'Vénus', 40.8);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (8, 'Abigael', 'Loïs', 97.2);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (9, 'Lucienne', 'Nélie', 70.9);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (10, 'Berty', 'Loïs', 61.0);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (11, 'Rafaellle', 'Garçon', 48.7);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (12, 'Vally', 'Naëlle', 35.1);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (13, 'Berkly', 'Adèle', 36.6);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (14, 'Marie-jeanne', 'Marie-françoise', 18.0);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (15, 'Tuck', 'Ráo', 31.3);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (16, 'Imelda', 'Eloïse', 93.7);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (17, 'Julianne', 'Michèle', 8.0);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (18, 'Zeke', 'Cléopatre', 58.7);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (19, 'Correy', 'Lucrèce', 11.9);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (20, 'Connie', 'Inès', 66.2);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (21, 'Emily', 'Lài', 14.8);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (22, 'Dell', 'Clélia', 38.9);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (23, 'Barnaby', 'Océanne', 16.3);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (24, 'Aggie', 'Maïly', 5.0);
+insert into T_STB_CURSO (cd_curso, nm_curso, ds_curso, vl_curso) values (25, 'Sena', 'Åsa', 62.9);
+
+
+
+INSERT INTO t_stb_aluno(CD_ALUNO,DS_HISTORICO,DS_GRAU_ESCOLARIDADE, DT_ANO_FORMACAO,NM_ALUNO,NM_APELIDO,NR_RG,NR_CPF,DT_NASCIMENTO,DS_EMAIL,NR_TELEFONE,NR_SENHA,DS_SEXO,NR_IDADE) VALUES
+(1, 'HISTORICO', '2 GRAU', TO_DATE('20/05/2018', 'DD/MM/YYYY'), 'ANDRE','ANDRE', 547988882, 879125454, TO_DATE('20/02/2000','DD/MM/YYYY'), 'ANDRE@GMAIL.COM', 945784544, 123456, 'M', 18);
+
+INSERT INTO t_stb_aluno(CD_ALUNO,DS_HISTORICO,DS_GRAU_ESCOLARIDADE, DT_ANO_FORMACAO,NM_ALUNO,NM_APELIDO,NR_RG,NR_CPF,DT_NASCIMENTO,DS_EMAIL,NR_TELEFONE,NR_SENHA,DS_SEXO,NR_IDADE) VALUES
+(2, 'HISTORICO', '1 grau', TO_DATE('02/12/2020', 'DD/MM/YYYY'), 'RITA','RITINHA', 252498582, 41278954, TO_DATE('27/02/1999','DD/MM/YYYY'), 'RITA@GMAIL.COM', 257896544, 458789, 'F', 18);
+INSERT INTO t_stb_aluno(CD_ALUNO,DS_HISTORICO,DS_GRAU_ESCOLARIDADE, DT_ANO_FORMACAO,NM_ALUNO,NM_APELIDO,NR_RG,NR_CPF,DT_NASCIMENTO,DS_EMAIL,NR_TELEFONE,NR_SENHA,DS_SEXO,NR_IDADE) VALUES
+(3, 'HISTORICO', '1 GRAU', TO_DATE('01/05/2020', 'DD/MM/YYYY'), 'LORENA','LOLO', 457368299, 647125454, TO_DATE('10/02/2000','DD/MM/YYYY'), 'LORENA@GMAIL.COM', 251890375, 7789456, 'F', 18);
+INSERT INTO t_stb_aluno(CD_ALUNO,DS_HISTORICO,DS_GRAU_ESCOLARIDADE, DT_ANO_FORMACAO,NM_ALUNO,NM_APELIDO,NR_RG,NR_CPF,DT_NASCIMENTO,DS_EMAIL,NR_TELEFONE,NR_SENHA,DS_SEXO,NR_IDADE) VALUES
+(4, 'HISTORICO', '2 GRAU', TO_DATE('20/05/2018', 'DD/MM/YYYY'), 'HUMBERTO','BETAO', 4578744882, 235125454, TO_DATE('10/04/1996','DD/MM/YYYY'), 'HUMBERTO@GMAIL.COM', 945784544, 123256, 'M', 22);
+INSERT INTO t_stb_aluno(CD_ALUNO,DS_HISTORICO,DS_GRAU_ESCOLARIDADE, DT_ANO_FORMACAO,NM_ALUNO,NM_APELIDO,NR_RG,NR_CPF,DT_NASCIMENTO,DS_EMAIL,NR_TELEFONE,NR_SENHA,DS_SEXO,NR_IDADE) VALUES
+(5, 'HISTORICO', '2 GRAU', TO_DATE('14/09/2018', 'DD/MM/YYYY'), 'BRENDA','ZOIAO', 457878452, 887125454, TO_DATE('22/01/2002','DD/MM/YYYY'), 'BRENDA@GMAIL.COM', 945784544, 854622, 'F', 16);
+INSERT INTO t_stb_aluno(CD_ALUNO,DS_HISTORICO,DS_GRAU_ESCOLARIDADE, DT_ANO_FORMACAO,NM_ALUNO,NM_APELIDO,NR_RG,NR_CPF,DT_NASCIMENTO,DS_EMAIL,NR_TELEFONE,NR_SENHA,DS_SEXO,NR_IDADE) VALUES
+(6, 'HISTORICO', '2 GRAU', TO_DATE('01/06/2019', 'DD/MM/YYYY'), 'HENRIQUE','RIQUE', 457878782, 55125454, TO_DATE('26/10/2001','DD/MM/YYYY'), 'HENRIQUE@GMAIL.COM', 945784544, 5469123, 'M', 17);
+INSERT INTO t_stb_aluno(CD_ALUNO,DS_HISTORICO,DS_GRAU_ESCOLARIDADE, DT_ANO_FORMACAO,NM_ALUNO,NM_APELIDO,NR_RG,NR_CPF,DT_NASCIMENTO,DS_EMAIL,NR_TELEFONE,NR_SENHA,DS_SEXO,NR_IDADE) VALUES
+(7, 'MUITA CONVERSA', '2 GRAU', TO_DATE('20/05/2018', 'DD/MM/YYYY'), 'ILZA','ILZINHA', 457378882, 14525454, TO_DATE('08/11/1996','DD/MM/YYYY'), 'ILZA@GMAIL.COM', 945784544, 8992307, 'F', 21);
+INSERT INTO t_stb_aluno(CD_ALUNO,DS_HISTORICO,DS_GRAU_ESCOLARIDADE, DT_ANO_FORMACAO,NM_ALUNO,NM_APELIDO,NR_RG,NR_CPF,DT_NASCIMENTO,DS_EMAIL,NR_TELEFONE,NR_SENHA,DS_SEXO,NR_IDADE) VALUES
+(8, 'ESTUDE MAIS', '1 GRAU', TO_DATE('20/05/2022', 'DD/MM/YYYY'), 'JOAO','FEIJAO', 497878882, 12526454, TO_DATE('01/08/2005','DD/MM/YYYY'), 'JOAO@GMAIL.COM', 945784544, 5968172, 'M', 13);
+INSERT INTO t_stb_aluno(CD_ALUNO,DS_HISTORICO,DS_GRAU_ESCOLARIDADE, DT_ANO_FORMACAO,NM_ALUNO,NM_APELIDO,NR_RG,NR_CPF,DT_NASCIMENTO,DS_EMAIL,NR_TELEFONE,NR_SENHA,DS_SEXO,NR_IDADE) VALUES
+(9, 'ESTUDIOSA', '2 GRAU', TO_DATE('30/06/2020', 'DD/MM/YYYY'), 'KARINA','KA', 2457878882, 12547854, TO_DATE('11/05/1997','DD/MM/YYYY'), 'KARINA@GMAIL.COM', 945784544, 2466987, 'F', 21);
+INSERT INTO t_stb_aluno(CD_ALUNO,DS_HISTORICO,DS_GRAU_ESCOLARIDADE, DT_ANO_FORMACAO,NM_ALUNO,NM_APELIDO,NR_RG,NR_CPF,DT_NASCIMENTO,DS_EMAIL,NR_TELEFONE,NR_SENHA,DS_SEXO,NR_IDADE) VALUES
+(10, 'ESTUDAAAA', '2 GRAU', TO_DATE('01/12/2019', 'DD/MM/YYYY'), 'KAUE','NOIA', 14567882582, 1252515454, TO_DATE('07/06/1999','DD/MM/YYYY'), 'kAUE@GMAIL.COM', 945784544, 25469438, 'M', 19);
+INSERT INTO t_stb_aluno(CD_ALUNO,DS_HISTORICO,DS_GRAU_ESCOLARIDADE, DT_ANO_FORMACAO,NM_ALUNO,NM_APELIDO,NR_RG,NR_CPF,DT_NASCIMENTO,DS_EMAIL,NR_TELEFONE,NR_SENHA,DS_SEXO,NR_IDADE) VALUES
+(11, 'BOM PRA CARAMBA', '2 GRAU', TO_DATE('01/12/2019', 'DD/MM/YYYY'), 'BRUNA','BRU', 1457878882, 129995454, TO_DATE('06/12/1999','DD/MM/YYYY'), 'BRUNA@GMAIL.COM', 945784544, 25465931, 'F', 18);
+
+
+INSERT INTO T_STB_PROFESSOR (DS_COMPROVANTE_PAGAMENTO, CD_PROFESSOR, NM_PROFESSOR, NM_APELIDO, NR_RG, NR_CPF, DT_NASCIMENTO, DS_EMAIL, NR_TELEFONE, NR_SENHA, DS_SEXO, NR_IDADE) VALUES ('FORMADO', '1', 'LUCIO', 'LUCIO', '456789123', '45698231', TO_DATE('1965-06-25 00:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'lucio@gmail.com', '25368978', '12345698', 'M', '52');
+INSERT INTO T_STB_PROFESSOR (DS_COMPROVANTE_PAGAMENTO, CD_PROFESSOR, NM_PROFESSOR, NM_APELIDO, NR_RG, NR_CPF, DT_NASCIMENTO, DS_EMAIL, NR_TELEFONE, NR_SENHA, DS_SEXO, NR_IDADE) VALUES ('FORMADO', '2', 'kirina', 'kiki', '254698310', '789403', TO_DATE('1963-06-25 00:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'kiki24@gmail.com', '56897423', '23568945', 'F', '62');
+INSERT INTO T_STB_PROFESSOR (DS_COMPROVANTE_PAGAMENTO, CD_PROFESSOR, NM_PROFESSOR, NM_APELIDO, NR_RG, NR_CPF, DT_NASCIMENTO, DS_EMAIL, NR_TELEFONE, NR_SENHA, DS_SEXO, NR_IDADE) VALUES ('FORMADO', '3', 'allen', 'alen', '5478963', '1235897451', TO_DATE('1972-03-02 00:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'allen@hotmail.com', '456987230', '1254698', 'M', '36');
+INSERT INTO T_STB_PROFESSOR (DS_COMPROVANTE_PAGAMENTO, CD_PROFESSOR, NM_PROFESSOR, NM_APELIDO, NR_RG, NR_CPF, DT_NASCIMENTO, DS_EMAIL, NR_TELEFONE, NR_SENHA, DS_SEXO, NR_IDADE) VALUES ('FORMADO', '4', 'Rui', 'RUI', '4569823015', '2569832', TO_DATE('1989-05-03 00:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'RUI@OUTLOOK.COM', '245897', '256983014', 'M', '27');
+INSERT INTO T_STB_PROFESSOR (DS_COMPROVANTE_PAGAMENTO, CD_PROFESSOR, NM_PROFESSOR, NM_APELIDO, NR_RG, NR_CPF, DT_NASCIMENTO, DS_EMAIL, NR_TELEFONE, NR_SENHA, DS_SEXO, NR_IDADE) VALUES ('FORMADO', '5', 'BARBARA', 'BAH', '45689821', '21563', TO_DATE('1997-01-07 00:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'BA@GMAIL.COM', '12549650', '20136548', 'F', '23');
+INSERT INTO T_STB_PROFESSOR (DS_COMPROVANTE_PAGAMENTO, CD_PROFESSOR, NM_PROFESSOR, NM_APELIDO, NR_RG, NR_CPF, DT_NASCIMENTO, DS_EMAIL, NR_TELEFONE, NR_SENHA, DS_SEXO, NR_IDADE) VALUES ('FORMADO', '6', 'KEILA', 'KEI', '12358888', '22265589', TO_DATE('1977-08-25 00:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'KEI@GMAIL.COM', '44458956', '254864864321', 'F', '37');
+INSERT INTO T_STB_PROFESSOR (DS_COMPROVANTE_PAGAMENTO, CD_PROFESSOR, NM_PROFESSOR, NM_APELIDO, NR_RG, NR_CPF, DT_NASCIMENTO, DS_EMAIL, NR_TELEFONE, NR_SENHA, DS_SEXO, NR_IDADE) VALUES ('FORMADO', '7', 'LUIGI', 'LU', '111124921', '221455697', TO_DATE('1985-06-16 00:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'LU@YAHOO.COM', '2251689', '256483', 'M', '29');
+INSERT INTO T_STB_PROFESSOR (DS_COMPROVANTE_PAGAMENTO, CD_PROFESSOR, NM_PROFESSOR, NM_APELIDO, NR_RG, NR_CPF, DT_NASCIMENTO, DS_EMAIL, NR_TELEFONE, NR_SENHA, DS_SEXO, NR_IDADE) VALUES ('FORMADO', '8', 'NATALIA', 'NATI', '2225698', '22365441', TO_DATE('1994-09-14 00:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'NATI@GMAIL.COM', '789456', '588846483', 'F', '25');
+INSERT INTO T_STB_PROFESSOR (DS_COMPROVANTE_PAGAMENTO, CD_PROFESSOR, NM_PROFESSOR, NM_APELIDO, NR_RG, NR_CPF, DT_NASCIMENTO, DS_EMAIL, NR_TELEFONE, NR_SENHA, DS_SEXO, NR_IDADE) VALUES ('FORMADO', '9', 'ANDRE', 'ANDRE', '3654789210', '2215682366', TO_DATE('1999-07-24 00:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'ANDREP@GMAIL.COM', '22648984', '2225598989', 'M', '19');
+INSERT INTO T_STB_PROFESSOR (DS_COMPROVANTE_PAGAMENTO, CD_PROFESSOR, NM_PROFESSOR, NM_APELIDO, NR_RG, NR_CPF, DT_NASCIMENTO, DS_EMAIL, NR_TELEFONE, NR_SENHA, DS_SEXO, NR_IDADE) VALUES ('FORMADO', '10', 'HENRIQUE', 'HENRIQUE', '22256693', '4445698', TO_DATE('1992-06-07 00:00:00', 'YYYY-MM-DD HH24:MI:SS'), 'RIQUE8@HOTMAIL.COM', '28486843', '554799653', 'M', '24');
+
+
+insert into T_STB_PEDIDO (cd_pedido, dt_pedido, vl_total_pedido, cd_pagamento, cd_aluno) values (1, '29/05/2017', 867.18, 1, 1);
+insert into T_STB_PEDIDO (cd_pedido, dt_pedido, vl_total_pedido, cd_pagamento, cd_aluno) values (2, '03/12/2015', 916.51, 2, 2);
+insert into T_STB_PEDIDO (cd_pedido, dt_pedido, vl_total_pedido, cd_pagamento, cd_aluno) values (3, '26/11/2017', 544.38, 3, 3);
+insert into T_STB_PEDIDO (cd_pedido, dt_pedido, vl_total_pedido, cd_pagamento, cd_aluno) values (4, '21/04/2016', 67.64, 4, 4);
+insert into T_STB_PEDIDO (cd_pedido, dt_pedido, vl_total_pedido, cd_pagamento, cd_aluno) values (5, '08/11/2016', 338.18, 5, 5);
+insert into T_STB_PEDIDO (cd_pedido, dt_pedido, vl_total_pedido, cd_pagamento, cd_aluno) values (6, '16/10/2016', 529.66, 6, 6);
+insert into T_STB_PEDIDO (cd_pedido, dt_pedido, vl_total_pedido, cd_pagamento, cd_aluno) values (7, '08/09/2017', 790.65, 7, 7);
+insert into T_STB_PEDIDO (cd_pedido, dt_pedido, vl_total_pedido, cd_pagamento, cd_aluno) values (8, '07/03/2017', 14.33, 8, 8);
+insert into T_STB_PEDIDO (cd_pedido, dt_pedido, vl_total_pedido, cd_pagamento, cd_aluno) values (1, '11/09/2018', 336.53, 9, 9);
+insert into T_STB_PEDIDO (cd_pedido, dt_pedido, vl_total_pedido, cd_pagamento, cd_aluno) values (10, '28/11/2015', 752.92, 10, 10);
+insert into T_STB_PEDIDO (cd_pedido, dt_pedido, vl_total_pedido, cd_pagamento, cd_aluno) values (11, '21/03/2018', 220.62, 11, 11);
+
+
+
+INSERT INTO T_STB_ITEM_PEDIDO (CD_ITEM_PEDIDO, VL_ITEM_PEDIDO, NR_ITEM, QT_VENDIDA, CD_PAGAMENTO, CD_PEDIDO, CD_CURSO) VALUES (1, 220, 2, 1, 1, 1,1);
+INSERT INTO T_STB_ITEM_PEDIDO (CD_ITEM_PEDIDO, VL_ITEM_PEDIDO, NR_ITEM, QT_VENDIDA, CD_PAGAMENTO, CD_PEDIDO, CD_CURSO) VALUES (2, 300, 3, 5, 2, 2, 2);
+INSERT INTO T_STB_ITEM_PEDIDO (CD_ITEM_PEDIDO, VL_ITEM_PEDIDO, NR_ITEM, QT_VENDIDA, CD_PAGAMENTO, CD_PEDIDO, CD_CURSO) VALUES (3, 500, 4, 8, 3, 3, 3);
+INSERT INTO T_STB_ITEM_PEDIDO (CD_ITEM_PEDIDO, VL_ITEM_PEDIDO, NR_ITEM, QT_VENDIDA, CD_PAGAMENTO, CD_PEDIDO, CD_CURSO) VALUES (4, 800, 12, 1, 4, 4, 4);
+INSERT INTO T_STB_ITEM_PEDIDO (CD_ITEM_PEDIDO, VL_ITEM_PEDIDO, NR_ITEM, QT_VENDIDA, CD_PAGAMENTO, CD_PEDIDO, CD_CURSO) VALUES (5, 2698, 45, 2, 5, 5, 5);
+INSERT INTO T_STB_ITEM_PEDIDO (CD_ITEM_PEDIDO, VL_ITEM_PEDIDO, NR_ITEM, QT_VENDIDA, CD_PAGAMENTO, CD_PEDIDO, CD_CURSO) VALUES (6, 896, 6, 1, 6, 6, 6);
+INSERT INTO T_STB_ITEM_PEDIDO (CD_ITEM_PEDIDO, VL_ITEM_PEDIDO, NR_ITEM, QT_VENDIDA, CD_PAGAMENTO, CD_PEDIDO, CD_CURSO) VALUES (7, 2569, 89, 200, 7, 7, 7);
+INSERT INTO T_STB_ITEM_PEDIDO (CD_ITEM_PEDIDO, VL_ITEM_PEDIDO, NR_ITEM, QT_VENDIDA, CD_PAGAMENTO, CD_PEDIDO, CD_CURSO) VALUES (8, 5630, 5, 91, 8, 8, 8);
+INSERT INTO T_STB_ITEM_PEDIDO (CD_ITEM_PEDIDO, VL_ITEM_PEDIDO, NR_ITEM, QT_VENDIDA, CD_PAGAMENTO, CD_PEDIDO, CD_CURSO) VALUES (9, 8600, 52, 14, 9, 9, 9);
+INSERT INTO T_STB_ITEM_PEDIDO (CD_ITEM_PEDIDO, VL_ITEM_PEDIDO, NR_ITEM, QT_VENDIDA, CD_PAGAMENTO, CD_PEDIDO, CD_CURSO) VALUES (10, 5698, 2, 5, 10, 10, 10);
+INSERT INTO T_STB_ITEM_PEDIDO (CD_ITEM_PEDIDO, VL_ITEM_PEDIDO, NR_ITEM, QT_VENDIDA, CD_PAGAMENTO, CD_PEDIDO, CD_CURSO) VALUES (11, 6347, 9, 1, 11, 11, 11);
+
+
+
+INSERT INTO T_STB_AULA (CD_AULA, NM_AULA, DS_DURACAO, CD_DISCIPLINA, CD_CURSO, CD_PROFESSOR) VALUES (1, 'JAVA', '90MIN', 1, 1, 1);
+INSERT INTO T_STB_AULA (CD_AULA, NM_AULA, DS_DURACAO, CD_DISCIPLINA, CD_CURSO, CD_PROFESSOR) VALUES (2, 'HTML', '90 MIN', 2, 2, 2);
+INSERT INTO T_STB_AULA (CD_AULA, NM_AULA, DS_DURACAO, CD_DISCIPLINA, CD_CURSO, CD_PROFESSOR) VALUES (3, 'CSS', '60 MIN', 3, 3, 3);
+INSERT INTO T_STB_AULA (CD_AULA, NM_AULA, DS_DURACAO, CD_DISCIPLINA, CD_CURSO, CD_PROFESSOR) VALUES (4, 'GO', '50 MIN', 4, 4, 4);
+INSERT INTO T_STB_AULA (CD_AULA, NM_AULA, DS_DURACAO, CD_DISCIPLINA, CD_CURSO, CD_PROFESSOR) VALUES (5, 'MONGO DB', '100 MIN', 5, 5, 5);
+INSERT INTO T_STB_AULA (CD_AULA, NM_AULA, DS_DURACAO, CD_DISCIPLINA, CD_CURSO, CD_PROFESSOR) VALUES (6, 'ORACLE SQL', '60 MIN', 6, 6, 6);
+INSERT INTO T_STB_AULA (CD_AULA, NM_AULA, DS_DURACAO, CD_DISCIPLINA, CD_CURSO, CD_PROFESSOR) VALUES (7, 'ANDROID', '90 MIN', 7, 7, 7);
+INSERT INTO T_STB_AULA (CD_AULA, NM_AULA, DS_DURACAO, CD_DISCIPLINA, CD_CURSO, CD_PROFESSOR) VALUES (8, 'IOS', '100 MON', 8, 8, 8);
+INSERT INTO T_STB_AULA (CD_AULA, NM_AULA, DS_DURACAO, CD_DISCIPLINA, CD_CURSO, CD_PROFESSOR) VALUES (9, 'SQL SERVER', '60 MIN', 9, 9, 9);
+INSERT INTO T_STB_AULA (CD_AULA, NM_AULA, DS_DURACAO, CD_DISCIPLINA, CD_CURSO, CD_PROFESSOR) VALUES (10, 'PYTHON', '100 MIN', 10, 10, 10);
+
+
+
+
+/*
+    LISTANDO TODAS AS TABELAS
+*/
+
+SELECT * FROM T_STB_DISCIPLINA;
+SELECT * FROM T_STB_CURSO;
+SELECT * FROM T_STB_PAGAMENTO;
+SELECT * FROM T_STB_ALUNO;
+SELECT * FROM T_STB_PEDIDO;
+SELECT * FROM T_STB_ITEM_PEDIDO;
+SELECT * FROM t_stb_professor;
+SELECT * FROM t_stb_aula;
+
+select cd_aluno, dt_nascimento from t_stb_aluno ORDER BY dt_nascimento desc;
+
+select cd_aluno, nm_aluno, cd_professor,nm_professor 
+from t_stb_aluno inner join t_stb_professor on(cd_aluno = cd_professor)
+order BY cd_aluno;
+
+COMMIT;

@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06D38CD9-72B7-C161-5757-BDA91EC613F4" name="T_STB_MATERIAL">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-19 13:33:37 UTC</createdTime>
+<generatorID>D4FE87DE-72E0-BA97-E8D0-D914BEB0D42D</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_material" id="C18DB143-BC93-1758-A6D4-FB0597C08C73">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-19 13:33:37 UTC</createdTime>
+<generatorID>5E61E42F-3485-D17B-8E4B-16F662A20DE5</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_path" id="E65179F4-4CF6-2CF9-4457-DDD6016D79CD">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-19 13:33:37 UTC</createdTime>
+<generatorID>3B401199-7FCD-12D9-41EA-93717700B3FB</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo" id="6FB5CB7B-B1F9-6241-FF47-A2F8C0164504">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-19 13:33:37 UTC</createdTime>
+<generatorID>1F1820CC-3BB8-15BE-8C0D-3313384D575E</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_aula" id="1F097A9F-8E8F-670E-6950-76E96C102885">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-19 13:33:37 UTC</createdTime>
+<generatorID>572FA62E-1361-EAA8-D4F6-DE32A6D62FBB</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC8E8E14-C88E-1DF3-E1DA-569B5316E1B1" referredColumn="83AF6338-AA73-54C0-4BFE-A4F581CCC5D3"/>
+</associations>
+</Column>
+<Column name="cd_curso" id="5BFC6D3C-518D-5C43-70DC-7A1AB385D0CE">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-19 13:33:37 UTC</createdTime>
+<generatorID>E27029C5-DBE4-23BC-E1A3-431DE29B83CB</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC8E8E14-C88E-1DF3-E1DA-569B5316E1B1" referredColumn="699D0D19-EAA0-7EDC-B04A-5FAAB9A9090F"/>
+</associations>
+</Column>
+<Column name="cd_usuario" id="5BD8C067-1CD2-8771-0D0D-5CF45C4D7B10">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-19 13:33:37 UTC</createdTime>
+<generatorID>C42882C8-EBDA-243E-116D-095D698CF4DD</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC8E8E14-C88E-1DF3-E1DA-569B5316E1B1" referredColumn="1EB64DCB-1443-71A0-1A3F-8B14D7A6C94E"/>
+</associations>
+</Column>
+<Column name="cd_disciplina" id="C34F6BF4-3714-E9E3-E168-AADABF5DBF1A">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-19 13:33:37 UTC</createdTime>
+<generatorID>4B587A7F-E802-8E2C-1E45-0FC5B2FF36D4</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC8E8E14-C88E-1DF3-E1DA-569B5316E1B1" referredColumn="DEDE9D9F-A060-59EA-2487-B2C86B50B308"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46EF64D8-5E5B-8BF1-8EA3-FD2EC98C540F" name="PK_STB_MATERIAL">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-19 13:33:37 UTC</createdTime>
+<generatorID>C84143E7-2FFD-8851-89C3-E2CB1BDC7E5A</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F097A9F-8E8F-670E-6950-76E96C102885"/>
+<colUsage columnID="5BFC6D3C-518D-5C43-70DC-7A1AB385D0CE"/>
+<colUsage columnID="5BD8C067-1CD2-8771-0D0D-5CF45C4D7B10"/>
+<colUsage columnID="C34F6BF4-3714-E9E3-E168-AADABF5DBF1A"/>
+<colUsage columnID="C18DB143-BC93-1758-A6D4-FB0597C08C73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE7C46CD-5CF0-026C-7597-6A850B5A9E72" name="FK_STB_MATERIAL_AULA">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-19 13:33:37 UTC</createdTime>
+<generatorID>801C8028-2075-90D0-1205-41785C90A77C</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F097A9F-8E8F-670E-6950-76E96C102885"/>
+<colUsage columnID="5BFC6D3C-518D-5C43-70DC-7A1AB385D0CE"/>
+<colUsage columnID="5BD8C067-1CD2-8771-0D0D-5CF45C4D7B10"/>
+<colUsage columnID="C34F6BF4-3714-E9E3-E168-AADABF5DBF1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

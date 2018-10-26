@@ -1,0 +1,228 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34F55C2B-E0D5-B497-5D9D-4A0A96DE13FF" name="T_STB_USUARIO">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>D41AC55C-1F3A-14E9-1CFF-69DF2B562E19</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_usuario" id="958AFBF6-D805-5B77-6104-67D1204AA6E0">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>B32EB404-BC0C-C961-8F7D-2294EE1C8DEB</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_usuario" id="78AFDA76-B213-A86A-EAB2-964727EAEC6B">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>793A0DA4-A737-0A19-D0F0-B87003907C3A</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_apelido" id="44947B3A-F969-530C-A23F-A7FC953C48B3">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>25A006E5-5E36-F1C0-FD8C-A57D4A6869D9</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rg" id="D2BFD419-9DA6-3013-FB34-78C31B4CCCCA">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>21DDED0B-177F-744B-3B37-E13FEA276E83</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="06D51251-88CF-2AA5-A239-32BE4FCE6D2E">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>31B5B183-CF78-B306-A9B7-E8343166826B</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="52E08144-FC56-B076-C6FD-E76D8D024FA0">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>8F7127A8-3373-85FB-46D0-9F319BAF27B1</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="EA11BB7B-5258-6A77-96AA-A55CE01AF79E">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>0D562E88-0FCD-E298-BB3B-2D8E8DCAEF5E</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="BB4A4789-E462-0FD2-284E-7071F2D08A58">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>6A240A20-7417-87EE-8CA0-22191F714F8D</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_senha" id="10B1B7F1-9D5F-6D80-DAB9-4314186679A5">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>BA4476B2-556C-2DF4-D5B1-8F7098EC1CA6</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_sexo" id="B67A0602-E5FC-BA91-9366-835E3231169D">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>CB643828-9E1C-1504-2215-89F567EE79CE</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_idade" id="D573DB56-D0A4-254E-46E5-B574156CA02C">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>198C4005-FA54-57A3-E701-FBAB4CA6330F</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1DEA70B-8895-80FE-274F-F84A5945CD6D" name="PK_STB_USUARIO">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>B64F77B9-C9BB-7491-73E3-CA3FC426ED44</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="958AFBF6-D805-5B77-6104-67D1204AA6E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91B6220D-C170-0B0B-2082-80F3697C4770" name="UN_nm_usuario">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:59:46 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78AFDA76-B213-A86A-EAB2-964727EAEC6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C844F81D-37C3-B19A-BE56-8C4E9EC8A1FD" name="UN_nm_apelido">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:59:46 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44947B3A-F969-530C-A23F-A7FC953C48B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02DAF6EC-B95F-C8FE-13AA-C01025F6FA87" name="UN_nr_cpf">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:59:46 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06D51251-88CF-2AA5-A239-32BE4FCE6D2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="294A7AA8-6358-01EF-A067-984075CE1C7D" name="UN_nr_senha">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:59:46 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10B1B7F1-9D5F-6D80-DAB9-4314186679A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="837FE374-122E-EF66-9805-632B6D04485D" name="UN_nr_rg">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-19 13:33:37 UTC</createdTime>
+<generatorID>B580F6CE-9C84-992D-FDF0-F9E109FA9D24</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2BFD419-9DA6-3013-FB34-78C31B4CCCCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_STB_USUARIO_1" directorySegmentName="seg_0" id="3AA525B5-6203-829E-E40F-8F7A288AE617">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 18:00:52 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<rule>nr_idade&gt;12</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_STB_USUARIO_2" directorySegmentName="seg_0" id="CD9CE721-4DF7-785C-B2C0-B16BBC2968E2">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 18:04:26 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<rule>UPPER(ds_sexo) = &apos;M&apos; OR UPPER(ds_sexo) = &apos;F&apos;</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_STB_USUARIO_3" directorySegmentName="seg_0" id="592D6F3F-733D-68D3-E205-75894E2009D8">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 18:05:13 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<rule>nr_senha&gt;=6</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

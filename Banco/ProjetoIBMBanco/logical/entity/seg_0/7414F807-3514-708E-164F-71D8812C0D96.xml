@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7414F807-3514-708E-164F-71D8812C0D96" name="T STB ALUNO">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:16:13 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ds historico" id="9BC5AF64-849E-2BC0-9922-5F17FC0C7248">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:19:12 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds grau escolaridade" id="019F1706-CF73-7AAD-007F-66D84FCD1332">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:19:13 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt ano formacao" id="EAE4EEDB-7B70-E412-9FCA-F777732D2DD0">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:19:13 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd usuario" id="C37C5B35-6EB0-DA8F-30C4-4BAEABC2595C">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:30:35 UTC</createdTime>
+<generatorID>5B70DACC-BFE4-26B3-B472-DF810BBDD71F</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<referedAttribute>B32EB404-BC0C-C961-8F7D-2294EE1C8DEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B54B359F-3B66-8D69-001D-8FC727482E72" name="T STB ALUNO PK">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-05 14:33:15 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C37C5B35-6EB0-DA8F-30C4-4BAEABC2595C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

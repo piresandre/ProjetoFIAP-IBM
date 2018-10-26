@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC8E8E14-C88E-1DF3-E1DA-569B5316E1B1" containerWithKeyObject="06D38CD9-72B7-C161-5757-BDA91EC613F4" localFKIndex="CE7C46CD-5CF0-026C-7597-6A850B5A9E72" name="FK_STB_MATERIAL_AULA">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-19 13:33:37 UTC</createdTime>
+<generatorID>801C8028-2075-90D0-1205-41785C90A77C</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<referredTableLongName>T_STB_AULA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>90D415F5-9D6C-6B9B-E090-6F4ED0D82C54</referredTableID>
+<keyObject>A29BC538-DD45-AB7F-0AA5-62CD6321CBCA</keyObject>
+<referredKeyID>A29BC538-DD45-AB7F-0AA5-62CD6321CBCA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_aula,cd_curso,cd_usuario,cd_disciplina</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK STB AULA CURSO" directorySegmentName="seg_0" id="18C67A3F-D9C2-D73E-8DB5-89FC4A35D499">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:29:47 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<sourcePk>45D101BE-040E-AC5B-7D5C-98A40B90B68D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1D67D6F-A2D6-A938-901D-927A5529159B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F5BF4E7D-F607-3601-5876-59D3417256BC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

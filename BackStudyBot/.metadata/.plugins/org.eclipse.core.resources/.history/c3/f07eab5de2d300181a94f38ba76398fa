@@ -1,0 +1,53 @@
+package br.com.studybot.beans;
+
+/**
+ * Classe que representa o objeto Pamento dentro da plataforma de estudos
+ * StudyBoot;
+ * 
+ * @author StudyBoot
+ *
+ */
+public class Pagamento {
+	/**
+	 * Atributos com modificadores de acesso privados
+	 * 
+	 */
+	private int codigo;
+	private String descricao;
+	/**
+	 * Construtores usaddos para passagem de paramento no objeto Curso
+	 * 
+	 */
+	public Pagamento() {
+		super();
+	}
+
+	public Pagamento(int codigo, String descricao) {
+		super();
+		this.codigo = codigo;
+		this.descricao = descricao;
+	}
+
+	public int getCodigo() {
+		return codigo;
+	}
+	/**
+	 * Metodos setters usados para passar os atributos que são privados ao instanciar um objeto
+	 * @return void
+	 */
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+	/**
+	 * Metodos getters  usados para mostrar o atributo da classe
+	 * 
+	 */
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+}

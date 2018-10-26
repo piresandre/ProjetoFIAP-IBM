@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="91C567C5-D49F-64CA-9BA3-1D12945EB147" containerWithKeyObject="A15EC66A-1878-66C2-EA75-F08E362EA0BF" localFKIndex="AD2D0235-C872-2B52-53EC-F5366F480273" name="FK_STB_PEDIDO_PAGA">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:47:56 UTC</createdTime>
+<generatorID>E4CFDEE6-CE58-BA41-22B7-358DBD7607F4</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<referredTableLongName>T_STB_PAGAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>764D9F9E-3179-9038-B690-6D71112E07CE</referredTableID>
+<keyObject>30F2F538-D47A-B4F7-87F7-DDB8F3886930</keyObject>
+<referredKeyID>30F2F538-D47A-B4F7-87F7-DDB8F3886930</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_pagamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

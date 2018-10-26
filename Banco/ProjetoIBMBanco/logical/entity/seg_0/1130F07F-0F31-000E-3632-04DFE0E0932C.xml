@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1130F07F-0F31-000E-3632-04DFE0E0932C" name="T STB PROFESSOR">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:16:29 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ds comprovante formacao" id="948DECD7-244E-D269-BCCE-7C2A82F44A69">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:18:27 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd usuario" id="CC1B6386-238E-AFEF-3106-FB61E618F4DB">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:30:48 UTC</createdTime>
+<generatorID>8930C1C4-EE24-E728-16DD-5F94E45BC80A</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<referedAttribute>B32EB404-BC0C-C961-8F7D-2294EE1C8DEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71CDEEF1-B947-72D6-5F49-BDA3C3E1389A" name="T STB PROFESSOR PK">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-05 14:33:15 UTC</createdTime>
+<generatorID>9D9938F2-E1FD-1515-07E4-C118A9F32A6B</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CC1B6386-238E-AFEF-3106-FB61E618F4DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

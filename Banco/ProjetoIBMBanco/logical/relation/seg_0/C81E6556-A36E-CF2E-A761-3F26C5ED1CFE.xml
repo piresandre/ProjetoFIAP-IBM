@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PODE_DAR" directorySegmentName="seg_0" id="C81E6556-A36E-CF2E-A761-3F26C5ED1CFE">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:31:45 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<sourcePk>71CDEEF1-B947-72D6-5F49-BDA3C3E1389A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1130F07F-0F31-000E-3632-04DFE0E0932C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F5BF4E7D-F607-3601-5876-59D3417256BC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

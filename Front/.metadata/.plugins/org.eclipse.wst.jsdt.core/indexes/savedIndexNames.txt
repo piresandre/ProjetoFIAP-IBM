@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\andre\Documents\ProjetoIBM\amWeb\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1968553903.index
+1948587770.index
+1687101888.index
+1341558619.index
+139742879.index
+1862549471.index

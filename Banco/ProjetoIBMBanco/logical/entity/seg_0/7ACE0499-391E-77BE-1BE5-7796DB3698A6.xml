@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7ACE0499-391E-77BE-1BE5-7796DB3698A6" name="T STB ITEM PEDIDO">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:16:59 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd item pedido" id="E1409394-FB1D-A227-AA87-B7FECE59F6D3">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:23:11 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl item pedido" id="DBAF60C5-380F-AB9C-C417-A7AAC25364D1">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:23:20 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr item" id="FB09DFBE-5538-9B4D-C8C9-F4A9C841538B">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:23:37 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt vendida" id="7FA610A0-09B9-C047-0682-788E40E56AC1">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:23:56 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd pagamento" id="E27B5749-8D29-7BF9-B875-9FE4B72A2777">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:33:50 UTC</createdTime>
+<generatorID>954ADA0A-7864-D3B3-6FF1-D09A93939BE8</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<referedAttribute>C11A839E-0A3F-2BF9-FBF9-D4F5FD7B136A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd pedido" id="93F67E27-B372-3B40-7455-795BD2A05662">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:35:33 UTC</createdTime>
+<generatorID>954ADA0A-7864-D3B3-6FF1-D09A93939BE8</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<referedAttribute>CE7EC13C-696C-9E44-CA97-8BA8F749BC70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd curso" id="6C30EFC3-D542-F51A-71CB-C103942B03A3">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:41:27 UTC</createdTime>
+<generatorID>2FC921C7-EBF2-FBB0-0AC0-535C838F9916</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<referedAttribute>E03BE03F-3FC5-29FC-4BA6-315C2477A875</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5F541563-B2B2-C9C5-4F56-D330A66223F1" name="PK_STB_ITEM_PEDIDO">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:23:18 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E1409394-FB1D-A227-AA87-B7FECE59F6D3</attributeRef>
+<attributeRef>E27B5749-8D29-7BF9-B875-9FE4B72A2777</attributeRef>
+<attributeRef>93F67E27-B372-3B40-7455-795BD2A05662</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK STB ITEM PEDIDO CURSO" directorySegmentName="seg_0" id="2FC921C7-EBF2-FBB0-0AC0-535C838F9916">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:28:58 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<sourcePk>45D101BE-040E-AC5B-7D5C-98A40B90B68D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1D67D6F-A2D6-A938-901D-927A5529159B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7ACE0499-391E-77BE-1BE5-7796DB3698A6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

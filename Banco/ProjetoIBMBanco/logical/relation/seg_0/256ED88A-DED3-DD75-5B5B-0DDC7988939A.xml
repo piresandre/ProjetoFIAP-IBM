@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK STB PEDIDO ALUNO" directorySegmentName="seg_0" id="256ED88A-DED3-DD75-5B5B-0DDC7988939A">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:31:29 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7414F807-3514-708E-164F-71D8812C0D96</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9C62A1EA-2DD1-4500-4EBC-76C7F21A567D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,247 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D41AC55C-1F3A-14E9-1CFF-69DF2B562E19" name="T STB USUARIO">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:13:25 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd usuario" id="B32EB404-BC0C-C961-8F7D-2294EE1C8DEB">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:13:44 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm usuario" id="793A0DA4-A737-0A19-D0F0-B87003907C3A">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:13:48 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm apelido" id="25A006E5-5E36-F1C0-FD8C-A57D4A6869D9">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:13:52 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr rg" id="21DDED0B-177F-744B-3B37-E13FEA276E83">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:13:53 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr cpf" id="31B5B183-CF78-B306-A9B7-E8343166826B">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:13:54 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt nascimento" id="8F7127A8-3373-85FB-46D0-9F319BAF27B1">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:13:54 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds email" id="0D562E88-0FCD-E298-BB3B-2D8E8DCAEF5E">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:13:55 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr telefone" id="6A240A20-7417-87EE-8CA0-22191F714F8D">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:13:56 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr senha" id="BA4476B2-556C-2DF4-D5B1-8F7098EC1CA6">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:15:27 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds sexo" id="CB643828-9E1C-1504-2215-89F567EE79CE">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:15:38 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr idade" id="198C4005-FA54-57A3-E701-FBAB4CA6330F">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:15:50 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B64F77B9-C9BB-7491-73E3-CA3FC426ED44" name="PK_STB_USUARIO">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-04 17:14:11 UTC</createdTime>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B32EB404-BC0C-C961-8F7D-2294EE1C8DEB</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="6BFE31E7-8A9E-B3C3-15D9-224B290556A4" name="UN STB USUARIO">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-05 14:33:15 UTC</createdTime>
+<generatorID>91B6220D-C170-0B0B-2082-80F3697C4770</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>793A0DA4-A737-0A19-D0F0-B87003907C3A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B580F6CE-9C84-992D-FDF0-F9E109FA9D24" name="UN STB USUARIOv1">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-05 14:33:15 UTC</createdTime>
+<generatorID>AEE199A3-329D-08C5-EA13-D77BCD037E8F</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>21DDED0B-177F-744B-3B37-E13FEA276E83</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="78098E4A-64C2-E70A-5966-63E42EC33E05" name="UN STB USUARIOv2">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-05 14:33:15 UTC</createdTime>
+<generatorID>C844F81D-37C3-B19A-BE56-8C4E9EC8A1FD</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>25A006E5-5E36-F1C0-FD8C-A57D4A6869D9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="91F1DDD1-5A84-B08E-2B87-AD377514D80C" name="UN STB USUARIOv3">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-05 14:33:15 UTC</createdTime>
+<generatorID>52F9E1F2-EEA7-CC96-1DCB-A2D448AABA32</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>21DDED0B-177F-744B-3B37-E13FEA276E83</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A1359BF7-627F-9EC2-C41B-184831000657" name="UN STB USUARIOv4">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-05 14:33:15 UTC</createdTime>
+<generatorID>02DAF6EC-B95F-C8FE-13AA-C01025F6FA87</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>31B5B183-CF78-B306-A9B7-E8343166826B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="FA2467CF-C8E1-FD51-A6B2-84277CB58F61" name="UN STB USUARIOv5">
+<createdBy>andre</createdBy>
+<createdTime>2018-09-05 14:33:15 UTC</createdTime>
+<generatorID>294A7AA8-6358-01EF-A067-984075CE1C7D</generatorID>
+<ownerDesignName>ProjetoIBMBanco</ownerDesignName>
+<engineerTo>
+<item key="12FE5FEA-DAFD-5B4F-5C22-996F4910D279" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>BA4476B2-556C-2DF4-D5B1-8F7098EC1CA6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
